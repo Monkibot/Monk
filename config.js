@@ -18,10 +18,10 @@ global.prems = ['51992004127'],['50576390682']
 
 global.packname = '☯︎ 𝙱𝙾𝚃\n☯︎ 𝙾𝚆𝙽𝙴𝚁';
 global.author = 'ʜᴀᴄʜɪᴋᴏ-ʙᴏᴛ-ᴍᴅ\nʜᴀᴄʜᴇᴊᴏᴛᴀ';
-global.wm = '𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴 𝙱𝙾𝚃 ';
-global.titulowm = '👋 𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴 𝙱𝙾𝚃';
-global.titulowm2 = ` 𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴 𝙱𝙾𝚃  `
-global.igfg = 𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴 𝙱𝙾𝚃';
+global.wm = '𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴 ';
+global.titulowm = '👋 𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴 👋';
+global.titulowm2 = ` 𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴 `
+global.igfg = '✪𝐇𝐚𝐜𝐡𝐢𝐤𝐨 - 𝐁𝐨𝐭✪';
 global.wait = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -43,8 +43,8 @@ global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 
 //****************************
-global.gt = '𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴 𝙱𝙾𝚃';
-global.mysticbot = '𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴 𝙱𝙾𝚃';
+global.gt = '★𝙷𝚊𝚌𝚑𝚒𝚔𝚘-𝙱𝚘𝚝★';
+global.mysticbot = '★𝙷𝙰𝙲𝙷𝙸𝙺𝙾 - 𝙱𝙾𝚃★';
 global.md = 'https://github.com/HACHEJOTA/Hachiko-bot-MD';
 global.mysticbot = 'https://github.com/HACHEJOTA/Hachiko-bot-MD';
 global.waitt = '*[❗] Ƈᴀʀɢᴀɴᴅᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ...*';
