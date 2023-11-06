@@ -22,7 +22,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━┓
-┃ *◉—𝗔𝗟𝗖𝗔 𝗕𝗢𝗧—◉*
+┃ *◉—𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴—◉*
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
 ┣⟣☯︎ *𝙾𝚆𝙽𝙴𝚁:* BU X DAFNE
 ┣⟣☯︎ *𝙽𝚄𝙼𝙴𝚁𝙾:* +52 8683088045
