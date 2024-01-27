@@ -22,10 +22,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `┏━━━━━━━━━━━━━━━━━━┓
-┃ *◉—𝙱𝚄 𝚇 𝙳𝙰𝙵𝙽𝙴—◉*
+┃ 
 ┃≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
-┣⟣☯︎ *𝙾𝚆𝙽𝙴𝚁:* BU X DAFNE
-┣⟣☯︎ *𝙽𝚄𝙼𝙴𝚁𝙾:* +52 8683088045
+┣⟣☯︎ *𝙾𝚆𝙽𝙴𝚁:* 𝙢𝙭𝙣𝙞 𝙗𝙤𝙩
+┣⟣☯︎ *𝙽𝚄𝙼𝙴𝚁𝙾:* +528115359903
 ┣⟣☯︎ *𝙵𝙴𝙲𝙷𝙰:* ${date}
 ┣⟣☯︎ *𝚃𝙸𝙴𝙼𝙿𝙾 𝙰𝙲𝚃𝙸𝚅𝙾:* ${uptime}
 ┣⟣☯︎ *𝚄𝚂𝚄𝙰𝚁𝙸𝙾𝚂:* ${rtotalreg}
