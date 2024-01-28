@@ -1,4 +1,4 @@
-console.log('✅ㅤIniciando Hachiko-Bot-MD...');
+console.log('[ ℹ️ ] Iniciando...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Hachiko - Bot - MD\nWhatsApp Bot MD', {
+say('LxShadow\nWhatsApp Bot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
-say(`Bot creado por HACHEJOTA`, {
+say(`Bot creado por LxShadow`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -32,10 +32,10 @@ function start(file) {
   isRunning = true;
   const args = [join(__dirname, file), ...process.argv.slice(2)];
 
-  say('Ajuste la pantalla para escanear el codigo QR', {
+  /** say('[ ℹ️ ] Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
     font: 'console',
     align: 'center',
-    gradient: ['red', 'magenta']});
+    gradient: ['red', 'magenta']}); **/
 
   setupMaster({
     exec: args[0],
@@ -56,7 +56,7 @@ function start(file) {
   });
   p.on('exit', (_, code) => {
     isRunning = false;
-    console.error('❎ㅤOcurrio un error inesperado:', code);
+    console.error('[ ℹ️ ] Ocurrio un error inesperado:', code);
 
     p.process.kill();
     isRunning = false;
